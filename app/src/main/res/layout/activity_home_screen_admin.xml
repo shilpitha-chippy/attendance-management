@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    tools:context=".HomeScreenAdmin">
+
+    <TextView
+        android:id="@+id/textViewAdminPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/shrikhand"
+        android:text="ADMIN PANEL"
+        android:textColor="#880E4F"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <Button
+        android:id="@+id/btnLecturer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lecturer"
+        android:textColor="#050505"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#00838F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241"
+        app:strokeColor="#FA7878" />
+
+    <Button
+        android:id="@+id/btnStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student"
+        android:textColor="#0A0B0B"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#00838F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241" />
+
+    <Button
+        android:id="@+id/btnViewAttendance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="118dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginRight="118dp"
+        android:text="View Attendance"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#00838F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
+</androidx.constraintlayout.widget.ConstraintLayout>

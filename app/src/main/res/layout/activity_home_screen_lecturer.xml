@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b2"
+    tools:context=".HomeScreenLecturer">
+
+    <Button
+        android:id="@+id/btnMarkAtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark Attendance"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#00838F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575" />
+
+    <Button
+        android:id="@+id/btnViewStud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Students"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#00838F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <Button
+        android:id="@+id/btnViewAtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginLeft="142dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:text="View Attendance"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#00838F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee_shade"
+        android:text="LECTURER PANEL"
+        android:textColor="#950909"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+</androidx.constraintlayout.widget.ConstraintLayout>

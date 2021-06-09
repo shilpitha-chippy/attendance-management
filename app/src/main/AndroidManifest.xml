@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.attendance">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Attendance">
+       <!-- <activity android:name=".Front"></activity> -->
+        <activity android:name=".ViewClassAttendance" />
+        <activity android:name=".UpdateStudentClass" />
+        <activity android:name=".ViewAttendanceClass" />
+        <activity android:name=".MarkAttendance" />
+        <activity android:name=".MarkSelectClass" />
+        <activity android:name=".ViewStudentList" />
+        <activity android:name=".ViewStudent" />
+        <activity android:name=".UpdateStudent" />
+        <activity android:name=".AddStudent" />
+        <activity android:name=".ViewLecturer" />
+        <activity android:name=".UpdateLecturer" />
+        <activity android:name=".AddLecturer" />
+        <activity
+            android:name=".ViewAttendance"
+            android:label="@string/title_activity_view_attendance"
+            android:theme="@style/Theme.Attendance.NoActionBar" />
+        <activity android:name=".AdminStudent" />
+        <activity android:name=".AdminLecturer" />
+        <activity android:name=".HomeScreenLecturer" />
+        <activity android:name=".HomeScreenAdmin" />
+        <activity android:name=".Front">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

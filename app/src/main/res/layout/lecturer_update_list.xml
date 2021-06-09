@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ede6b9"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_margin="5dp"
+        android:text="ID"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/txtUname"
+        android:layout_margin="5dp"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_margin="5dp"
+        android:text="Password"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="2"
+            android:background="#00838F"
+            android:text="Edit"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold"
+            app:backgroundTint="#00838F" />
+
+        <Button
+            android:id="@+id/btndelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="2"
+            android:background="#D32F2F"
+            android:text="Delete"
+            android:textColor="#090909"
+            android:textStyle="bold"
+            app:backgroundTint="#00838F" />
+    </LinearLayout>
+
+    <View
+        android:layout_margin="5dp"
+        android:background="#C5C5C5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>
+

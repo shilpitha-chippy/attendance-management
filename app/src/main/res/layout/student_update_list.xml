@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/b3"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <EditText
+        android:id="@+id/txtRollNo"
+        android:layout_margin="5dp"
+        android:text="Roll No"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_margin="5dp"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btneditS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="2"
+            android:background="#0288D1"
+            android:text="Edit"
+            android:textColor="#040303"
+            android:textStyle="bold"
+            app:backgroundTint="#00838F" />
+
+        <Button
+            android:id="@+id/btndeleteS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="2"
+            android:background="#D32F2F"
+            android:text="Delete"
+            android:textColor="#050505"
+            android:textStyle="bold"
+            app:backgroundTint="#00838F" />
+    </LinearLayout>
+
+    <View
+        android:layout_margin="5dp"
+        android:background="#C5C5C5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>
+
